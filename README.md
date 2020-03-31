@@ -21,7 +21,7 @@ You can use command line arguments to set HDFS related configurations
   jupyter-notebook --NotebookApp.contents_manager_class='hdfscontents.hdfsmanager.HDFSContentsManager' \
         --HDFSContentsManager.hdfs_namenode_host='localhost' \
         --HDFSContentsManager.hdfs_namenode_port=9000 \
-        --HDFSContentsManager.root_dir='/user/centos/'
+        --HDFSContentsManager.root_dir='/user/'
         
 
 
